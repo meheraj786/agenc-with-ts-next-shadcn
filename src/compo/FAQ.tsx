@@ -12,6 +12,7 @@ interface FAQItemProps {
   index: number;
 }
 
+
 function FAQItem({ question, answer, index }: FAQItemProps) {
   const [isOpen, setIsOpen] = useState(false);
 
