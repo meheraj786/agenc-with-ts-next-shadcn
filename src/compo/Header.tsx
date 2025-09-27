@@ -13,6 +13,7 @@ interface NavItem {
   dropdownItems?: { name: string; href: string; description?: string }[];
 }
 
+
 const navItems: NavItem[] = [
   { name: 'Home', href: '/' },
   { name: 'Features', href: '/features' },
